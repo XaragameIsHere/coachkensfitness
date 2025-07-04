@@ -1,0 +1,75 @@
+.flex-container, html, body{
+    height: 100%;
+    margin: 0;
+}
+
+
+.coach-ken-fitness {
+  color: #ffffff;
+  text-align: right;
+  font-family: "TafelSansPro-SemiBold", sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.tennis-coach-certified-professional-fitness-trainer {
+  color: #ffffff;
+  font-family: "TafelSansPro-ExtraLight", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.navBar.Bottom {
+  text-align: center;
+  background-color: #FFA572;
+}
+
+.navBar.Top {
+    display: flex;
+    background-color: #ffa572;
+    justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+  color: #f2f2f2;
+  display: inline-block;
+  text-align: center;
+  padding: 32px 2.5em;
+  font-size: 200%;
+  font-family: "TafelSansPro-SemiBold", sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+/* Change the color of links on hover */
+.navBar.Bottom a:hover {
+  background-color: #ffcaab;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+._74522526-acbc-40-be-b-764-d-11-e-687-ce-249-1 {
+    position: relative;
+    height: 100%;
+  aspect-ratio: 757/880;
+}
